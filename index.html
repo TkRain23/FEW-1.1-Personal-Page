@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Timothy Kaing</title>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif|Oxygen:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+
+    <script>
+    function nightMode() {
+        if (document.body.style.backgroundColor == 'rgb(255, 255, 255)') {
+
+                document.body.style.backgroundColor = '#121111';
+                document.body.style.color = '#ecf0f1';
+                document.getElementById("face").src="sleepy-boy-invert.svg";
+                document.getElementById('moon').style.color='#ecf0f1'
+                document.getElementById('logo').style.color='#ecf0f1'
+                document.getElementById('envelope').style.color='#ecf0f1'
+                document.getElementById('github').style.color='#ecf0f1'
+                document.getElementById('linkedin').style.color='#ecf0f1'
+        }
+        else {
+                document.body.style.backgroundColor = 'rgb(255, 255, 255)';
+                document.body.style.color = '#000'
+                document.getElementById("face").src="sleepy-boy.svg";
+                document.getElementById('moon').style.color='#121111'
+                document.getElementById('logo').style.color='#121111'
+                document.getElementById('envelope').style.color='#121111'
+                document.getElementById('github').style.color='#121111'
+                document.getElementById('linkedin').style.color='#121111'
+        }
+    }
+    </script>
+
+</head>
+
+
+<body>
+    <div class="nav-bar">
+            <ul class="nav-links">
+                <li> <a id="logo" href="#">Timothy Kaing</a></li>
+                <li><span onclick="nightMode()"><i id="moon" class="fas fa-moon"></i></span></li>
+            </ul>
+    </div>
+
+    </br>
+
+    <div class="header">
+        <h1>Design, Develop, Deliver</h1>
+        <hr>
+    </div>
+
+    <div class="about-me">
+        <div class="bio">
+            <p>
+                I am currently a junior pursuing my B.S. in Applied Computer Science. I have a focus in backend development and work with tools such as Node.JS, MongoDB, and React. For the past two years, I have worked as a Technical Project Manager and Front End Developer.
+                Previously, I directed and founded Sun Hacks (formerly Desert Hacks) at Arizona State University.
+            </p>
+        </div>
+        <div class="profile-pic">
+            <p><a href="resume.pdf"><img id="face" style="height:75px;" src="sleepy-boy.svg" onerror="this.onerror=null; this.src='image.png'"></a></p>
+        </div>
+
+    </div>
+
+    <div class="portfolio">
+        <a href="#"><div class="box a"> </div></a>
+        <a href="#"><div class="box b"> </div></a>
+        <a href="#"><div class="box c"> </div></a>
+        <a href="#"><div class="box d"> </div></a>
+    </div>
+    <br>
+    <div class="footer">
+        <div class="email">
+            <a href="mailto:timothy.kaing@gmail.com" id="envelope"><i class="fas fa-envelope"></i></a>
+        </div>
+        <div class="github">
+            <a href="https://github.com/tkrain23" id="github"><i class="fab fa-github-square"></i></a>
+        </div>
+        <div class="linkedin">
+            <a href="https://linkedin.com/in/timothykaing" id="linkedin"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
