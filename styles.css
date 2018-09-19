@@ -167,7 +167,12 @@ a:hover { text-decoration: none; color:#3498db; }
 a:focus { text-decoration: none; color:#1211111; }
 a:hover, a:active { text-decoration: none; color:#121111 }
 
+
 a[href^="mailto:"] {
+color: #121111;
+}
+
+a {
 color: #121111;
 }
 
