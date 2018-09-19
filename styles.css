@@ -11,6 +11,7 @@ div.nav-bar {
 
 body {
     color: #121111;
+     -webkit-font-smoothing: antialiased;
 }
 
 div.nav-bar ul {
