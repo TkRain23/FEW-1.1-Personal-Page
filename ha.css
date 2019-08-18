@@ -1,17 +1,5 @@
-h1 {
-  font-size: 3.4em;
-  font-family: "Oxygen", sans-serif;
-  font-weight: 300; }
-
-h2 {
-  font-size: 2.55em;
-  font-family: "Oxygen", sans-serif;
-  font-weight: 300; }
-
-h3 {
-  font-size: 1.7em;
-  font-family: "Oxygen", sans-serif;
-  font-weight: 300; }
+div.nav-bar {
+  display: flex; }
 
 .nav-links {
   display: flex;
@@ -23,23 +11,39 @@ body {
   color: #121111;
   -webkit-font-smoothing: antialiased; }
 
-div.nav-bar {
-  display: flex; }
-  div.nav-bar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    top: 0;
-    width: 100%; }
-  div.nav-bar li a, div.nav-bar i {
-    display: block;
-    letter-spacing: 5px;
-    color: #121111;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-family: "Oxygen", sans-serif; }
+div.nav-bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  /* overflow: hidden;
+  position: fixed; */
+  top: 0;
+  width: 100%; }
+
+div.nav-bar li {
+  /* float: left; */ }
+
+div.nav-bar li a {
+  display: block;
+  letter-spacing: 5px;
+  color: #121111;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Oxygen", sans-serif; }
+
+div.nav-bar li i {
+  display: block;
+  letter-spacing: 5px;
+  color: #121111;
+  text-align: center;
+  padding: 14px 16px; }
+
+h1 {
+  font-family: "Oxygen", sans-serif;
+  font-size: 42px;
+  font-weight: 300; }
 
 p {
   font-family: "Noto Serif", monospace;
@@ -110,7 +114,7 @@ div.about-me {
   line-height: 1.5; }
 
 .text {
-  color: #a79a9a;
+  color: white;
   font-size: 20px;
   position: absolute;
   top: 50%;
@@ -155,7 +159,7 @@ a:hover {
 
 a:focus {
   text-decoration: none;
-  color: #121111; }
+  color: #1211111; }
 
 a:hover, a:active {
   text-decoration: none;
@@ -234,4 +238,4 @@ a {
   text-align: center;
   font-family: 'Oxygen', sans-serif; }
 
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=ha.css.map */
